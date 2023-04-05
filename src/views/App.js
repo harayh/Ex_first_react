@@ -1,6 +1,7 @@
 import logo from './logo.svg';
-import './App.css';
-
+import './App.scss';
+// import Mycomponent from './Example/Mycomponent';
+import Parentcomponent from './ToDoAp/ParentComponent';
 function App() {
   return (
     <div className="App">
@@ -9,14 +10,8 @@ function App() {
         <p>
           Hi I'm HNT
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <Mycomponent /> */}
+        <Parentcomponent />
       </header>
     </div>
   );
